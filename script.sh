@@ -3,24 +3,24 @@
 #==============================================================================#
 
 # Years of contribution -------------------------------------------------------#
-for Y in {2019..2019}
+for Y in {2018..2018}
 do
   mkdir $Y
   cd $Y
 
   # Months of contribution ----------------------------------------------------#
-  for M in {04..04}
+  for M in {06..06}
   do
     mkdir $M
     cd $M
 
     # Days of contribution ----------------------------------------------------#
-    for D in {01..28}
+    for D in {12..31}
     do
       mkdir $D
       cd $D
 
-      let "RAND=(RANDOM % 6 + 1)" # random number of contributions per day
+      let "RAND=(RANDOM % 10 + 1)" # random number of contributions per day
       for ((i=1; i<=RAND; i++))
       do
         echo "0$i on $M/$D/$Y" > commit.md
