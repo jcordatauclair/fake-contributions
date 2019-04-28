@@ -9,13 +9,13 @@ do
   cd $Y
 
   # Months of contribution ----------------------------------------------------#
-  for M in {01..03}
+  for M in {04..04}
   do
     mkdir $M
     cd $M
 
     # Days of contribution ----------------------------------------------------#
-    for D in {01..31}
+    for D in {01..28}
     do
       mkdir $D
       cd $D
