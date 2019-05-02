@@ -20,7 +20,7 @@ do
       mkdir $D
       cd $D
 
-      let "RAND=(RANDOM % 10 + 1)" # random number of contributions per day
+      let "RAND=(RANDOM % 6 + 1)" # random number of contributions per day
       for ((i=1; i<=RAND; i++))
       do
         echo "0$i on $M/$D/$Y" > commit.md

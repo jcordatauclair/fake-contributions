@@ -24,7 +24,9 @@
 
 ## **Overview**
 
-This
+This is a very simple script that allows to generate fake contributions in **Git**. Just refer to the **[script](script.sh)**, change the period you want your contributions to appear and execute it!
+
+It's even possible to generate contributions in the future. *How about that?*
 
 ## **How to use**
 
@@ -37,6 +39,7 @@ Then you can simply run:
 ```
 ./script.sh
 ```
+
 **Enjoy the result!**
 
 ## **License**
