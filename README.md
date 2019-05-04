@@ -8,7 +8,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/project-personal-blue.svg?style=flat-square">
-  <img src="https://img.shields.io/badge/stability-stable-green.svg?style=flat-square">
+  <img src="https://img.shields.io/badge/stability-functional-green.svg?style=flat-square">
   <img src="https://img.shields.io/badge/made_with-shell-yellow.svg?style=flat-square">
 </p>
 
